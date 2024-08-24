@@ -23,4 +23,4 @@ jobs:
           - name: Checkout submodules
             run : git submodule update --init --recursive
           - name: Run full test
-            run: ./home/uriel/assignment-1-urielzbee/full-test.sh
+            run: ./full-test.sh
